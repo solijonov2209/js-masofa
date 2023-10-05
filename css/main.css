@@ -1,0 +1,50 @@
+.container{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 50px;
+  list-style: none;
+}
+.text{
+  margin-top: 0;
+}
+.js-item{
+  text-align: center;
+  border: 1px solid;
+  padding: 20px;
+}
+.js-item::before{
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-image: url("../img/man.png");
+  background-size: contain;
+  content: "";
+}
+.js-item:nth-child(2)::before{
+  background-image: url("../img/velo.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
+.js-item:nth-child(3)::before{
+  background-image: url("../img/car.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
+.js-item:nth-child(4)::before{
+  background-image: url("../img/airplain.png");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+}
